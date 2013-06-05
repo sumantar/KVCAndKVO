@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0331CC0216D2BC330037911A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0331CC0116D2BC330037911A /* UIKit.framework */; };
+		0331CC0416D2BC330037911A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0331CC0316D2BC330037911A /* Foundation.framework */; };
+		0331CC0616D2BC330037911A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0331CC0516D2BC330037911A /* CoreGraphics.framework */; };
+		0331CC0C16D2BC330037911A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0331CC0A16D2BC330037911A /* InfoPlist.strings */; };
+		0331CC0E16D2BC330037911A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0331CC0D16D2BC330037911A /* main.m */; };
+		0331CC1216D2BC330037911A /* CTCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0331CC1116D2BC330037911A /* CTCAppDelegate.m */; };
+		0331CC1416D2BC340037911A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0331CC1316D2BC340037911A /* Default.png */; };
+		0331CC1616D2BC340037911A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0331CC1516D2BC340037911A /* Default@2x.png */; };
+		0331CC1816D2BC340037911A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0331CC1716D2BC340037911A /* Default-568h@2x.png */; };
+		0331CC1B16D2BC340037911A /* CTCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0331CC1A16D2BC340037911A /* CTCViewController.m */; };
+		0331CC1E16D2BC340037911A /* CTCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0331CC1C16D2BC340037911A /* CTCViewController.xib */; };
+		0331CCC816D3F6820037911A /* ResponseA.json in Resources */ = {isa = PBXBuildFile; fileRef = 0331CCC716D3F6820037911A /* ResponseA.json */; };
+		0331CCCA16D3F8600037911A /* ResponseB.json in Resources */ = {isa = PBXBuildFile; fileRef = 0331CCC916D3F8600037911A /* ResponseB.json */; };
+		0331CCCC16D3F87A0037911A /* ResponseC.json in Resources */ = {isa = PBXBuildFile; fileRef = 0331CCCB16D3F87A0037911A /* ResponseC.json */; };
+		0331CCD016D3F8BB0037911A /* ResponseD.json in Resources */ = {isa = PBXBuildFile; fileRef = 0331CCCF16D3F8BB0037911A /* ResponseD.json */; };
+		0331CCD216D3F8CB0037911A /* ResponseE.json in Resources */ = {isa = PBXBuildFile; fileRef = 0331CCD116D3F8CA0037911A /* ResponseE.json */; };
+		0389943A16E1082D009275E8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0389943816E1082D009275E8 /* Icon.png */; };
+		0389943B16E1082D009275E8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0389943916E1082D009275E8 /* Icon@2x.png */; };
+		D1A960CA1CD295B23407E722 /* CTCFloatTypeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A960AB8D8D5F2608D1D05C /* CTCFloatTypeValidator.m */; };
+		D1A9612D29BDD99669FA0318 /* CTCDateTypeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A96B13B681A0BF8B33277F /* CTCDateTypeValidator.m */; };
+		D1A961558ADE642EBB7A278D /* CTCStation.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A96109D2CD25E51B9DC18F /* CTCStation.m */; };
+		D1A9621C56912347ADCFE486 /* CTCBaseModelValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A96F977C69F2AEB680CF33 /* CTCBaseModelValidator.m */; };
+		D1A96393A51F39EB36C09B15 /* CTCNumberTypeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A96431BB0178BFF883997B /* CTCNumberTypeValidator.m */; };
+		D1A96420C22B3EE0EC8B3302 /* CTCBooleanTypeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A96AC4326DB106A6B7A748 /* CTCBooleanTypeValidator.m */; };
+		D1A965A8D4879E9760B90CC0 /* CTCDoubleTypeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A96EBE1A57032C1359BB0D /* CTCDoubleTypeValidator.m */; };
+		D1A966991653B11B5E87F508 /* CTCBaseValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A96B0273E016C33D792DD3 /* CTCBaseValidator.m */; };
+		D1A966A3389F1134D28145A1 /* CTCHistoricalPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A963FA34856D738D23FCE5 /* CTCHistoricalPrice.m */; };
+		D1A966E4FCD1AEB29818902A /* CTCAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A96DAB6710395F2577CAA3 /* CTCAddress.m */; };
+		D1A9677609D8EFF77241C201 /* CTCArrayTypeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A965D6EE2DC8E368276665 /* CTCArrayTypeValidator.m */; };
+		D1A96840AAD0A01D4EC67395 /* CTCBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A96FDA94E719E970ACD8D1 /* CTCBaseModel.m */; };
+		D1A9691945674836A09D2BC8 /* NSString+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A96C133C16E9532FEA9D77 /* NSString+Utilities.m */; };
+		D1A9694E6EBF067748CF7520 /* CTCDictionaryTypeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A96F8FFAE93D1CA79F847E /* CTCDictionaryTypeValidator.m */; };
+		D1A96C04F57F99ECCA398A35 /* CTCStringTypeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A969301137DB19C2E681C4 /* CTCStringTypeValidator.m */; };
+		D1A96E7A320FB5300C08EC25 /* CTCIntegerTypeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A965882BA8DE414198C4BB /* CTCIntegerTypeValidator.m */; };
+		D1A96EA0F0A13B39EAD6002F /* CTCUnsignedIntegerTypeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A9633A6D221155B7466BCC /* CTCUnsignedIntegerTypeValidator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0331CBFE16D2BC330037911A /* KVC Validation Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KVC Validation Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0331CC0116D2BC330037911A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0331CC0316D2BC330037911A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0331CC0516D2BC330037911A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0331CC0916D2BC330037911A /* KVC Validation Pattern-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KVC Validation Pattern-Info.plist"; sourceTree = "<group>"; };
+		0331CC0B16D2BC330037911A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0331CC0D16D2BC330037911A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0331CC0F16D2BC330037911A /* KVC Validation Pattern-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KVC Validation Pattern-Prefix.pch"; sourceTree = "<group>"; };
+		0331CC1016D2BC330037911A /* CTCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTCAppDelegate.h; sourceTree = "<group>"; };
+		0331CC1116D2BC330037911A /* CTCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTCAppDelegate.m; sourceTree = "<group>"; };
+		0331CC1316D2BC340037911A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0331CC1516D2BC340037911A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0331CC1716D2BC340037911A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0331CC1916D2BC340037911A /* CTCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTCViewController.h; sourceTree = "<group>"; };
+		0331CC1A16D2BC340037911A /* CTCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTCViewController.m; sourceTree = "<group>"; };
+		0331CC1D16D2BC340037911A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CTCViewController.xib; sourceTree = "<group>"; };
+		0331CCC716D3F6820037911A /* ResponseA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ResponseA.json; sourceTree = "<group>"; };
+		0331CCC916D3F8600037911A /* ResponseB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ResponseB.json; sourceTree = "<group>"; };
+		0331CCCB16D3F87A0037911A /* ResponseC.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ResponseC.json; sourceTree = "<group>"; };
+		0331CCCF16D3F8BB0037911A /* ResponseD.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ResponseD.json; sourceTree = "<group>"; };
+		0331CCD116D3F8CA0037911A /* ResponseE.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ResponseE.json; sourceTree = "<group>"; };
+		0389943816E1082D009275E8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0389943916E1082D009275E8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		D1A960242C2D383AC3DEAC1C /* CTCIntegerTypeValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCIntegerTypeValidator.h; sourceTree = "<group>"; };
+		D1A9603D974FAEAA5655C472 /* CTCDictionaryTypeValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCDictionaryTypeValidator.h; sourceTree = "<group>"; };
+		D1A9608DF3D8068F64698BC3 /* CTCUnsignedIntegerTypeValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCUnsignedIntegerTypeValidator.h; sourceTree = "<group>"; };
+		D1A960AB8D8D5F2608D1D05C /* CTCFloatTypeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCFloatTypeValidator.m; sourceTree = "<group>"; };
+		D1A960BB8118621FAC9EC597 /* CTCBaseModelValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCBaseModelValidator.h; sourceTree = "<group>"; };
+		D1A96109D2CD25E51B9DC18F /* CTCStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCStation.m; sourceTree = "<group>"; };
+		D1A961ED56103D603228633F /* CTCBooleanTypeValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCBooleanTypeValidator.h; sourceTree = "<group>"; };
+		D1A9631937B4815842753788 /* ValidationFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationFunctions.h; sourceTree = "<group>"; };
+		D1A9633A6D221155B7466BCC /* CTCUnsignedIntegerTypeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCUnsignedIntegerTypeValidator.m; sourceTree = "<group>"; };
+		D1A9634AAEA04A7DAC761FB9 /* CTCStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCStation.h; sourceTree = "<group>"; };
+		D1A963B4A978AB7D6900FAEC /* CTCDoubleTypeValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCDoubleTypeValidator.h; sourceTree = "<group>"; };
+		D1A963FA34856D738D23FCE5 /* CTCHistoricalPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCHistoricalPrice.m; sourceTree = "<group>"; };
+		D1A96431BB0178BFF883997B /* CTCNumberTypeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCNumberTypeValidator.m; sourceTree = "<group>"; };
+		D1A964B154B9C3E18DF2E026 /* CTCNumberTypeValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCNumberTypeValidator.h; sourceTree = "<group>"; };
+		D1A965882BA8DE414198C4BB /* CTCIntegerTypeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCIntegerTypeValidator.m; sourceTree = "<group>"; };
+		D1A965D6EE2DC8E368276665 /* CTCArrayTypeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCArrayTypeValidator.m; sourceTree = "<group>"; };
+		D1A967B31A2F6F35B7A26450 /* CTCStringTypeValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCStringTypeValidator.h; sourceTree = "<group>"; };
+		D1A9682FCF8E44DE2645C622 /* CTCBaseValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCBaseValidator.h; sourceTree = "<group>"; };
+		D1A96919538C61431C404BCD /* CTCDateTypeValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCDateTypeValidator.h; sourceTree = "<group>"; };
+		D1A969301137DB19C2E681C4 /* CTCStringTypeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCStringTypeValidator.m; sourceTree = "<group>"; };
+		D1A9697EA73C7580ADBD935A /* NSString+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utilities.h"; sourceTree = "<group>"; };
+		D1A96A254F4AF318022696FB /* CTCHistoricalPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCHistoricalPrice.h; sourceTree = "<group>"; };
+		D1A96A4A42FF9FB0178DA2BD /* CTCAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCAddress.h; sourceTree = "<group>"; };
+		D1A96AC4326DB106A6B7A748 /* CTCBooleanTypeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCBooleanTypeValidator.m; sourceTree = "<group>"; };
+		D1A96AC843999D5242A3C415 /* CTCBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCBaseModel.h; sourceTree = "<group>"; };
+		D1A96B0273E016C33D792DD3 /* CTCBaseValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCBaseValidator.m; sourceTree = "<group>"; };
+		D1A96B13B681A0BF8B33277F /* CTCDateTypeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCDateTypeValidator.m; sourceTree = "<group>"; };
+		D1A96B6E1AD55C1C9EC59F97 /* CTCArrayTypeValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCArrayTypeValidator.h; sourceTree = "<group>"; };
+		D1A96C133C16E9532FEA9D77 /* NSString+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utilities.m"; sourceTree = "<group>"; };
+		D1A96C839902F7B92E090955 /* CTCFloatTypeValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCFloatTypeValidator.h; sourceTree = "<group>"; };
+		D1A96DAB6710395F2577CAA3 /* CTCAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCAddress.m; sourceTree = "<group>"; };
+		D1A96EBE1A57032C1359BB0D /* CTCDoubleTypeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCDoubleTypeValidator.m; sourceTree = "<group>"; };
+		D1A96F8FFAE93D1CA79F847E /* CTCDictionaryTypeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCDictionaryTypeValidator.m; sourceTree = "<group>"; };
+		D1A96F977C69F2AEB680CF33 /* CTCBaseModelValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCBaseModelValidator.m; sourceTree = "<group>"; };
+		D1A96FDA94E719E970ACD8D1 /* CTCBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCBaseModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0331CBFB16D2BC330037911A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0331CC0216D2BC330037911A /* UIKit.framework in Frameworks */,
+				0331CC0416D2BC330037911A /* Foundation.framework in Frameworks */,
+				0331CC0616D2BC330037911A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0331CBF516D2BC330037911A = {
+			isa = PBXGroup;
+			children = (
+				0331CC0716D2BC330037911A /* KVC Validation Pattern */,
+				0331CC0016D2BC330037911A /* Frameworks */,
+				0331CBFF16D2BC330037911A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0331CBFF16D2BC330037911A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0331CBFE16D2BC330037911A /* KVC Validation Pattern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0331CC0016D2BC330037911A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0331CC0116D2BC330037911A /* UIKit.framework */,
+				0331CC0316D2BC330037911A /* Foundation.framework */,
+				0331CC0516D2BC330037911A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0331CC0716D2BC330037911A /* KVC Validation Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				0331CC1016D2BC330037911A /* CTCAppDelegate.h */,
+				0331CC1116D2BC330037911A /* CTCAppDelegate.m */,
+				0331CC1916D2BC340037911A /* CTCViewController.h */,
+				0331CC1A16D2BC340037911A /* CTCViewController.m */,
+				0331CC1C16D2BC340037911A /* CTCViewController.xib */,
+				0331CCC716D3F6820037911A /* ResponseA.json */,
+				0331CCC916D3F8600037911A /* ResponseB.json */,
+				0331CCCB16D3F87A0037911A /* ResponseC.json */,
+				0331CCCF16D3F8BB0037911A /* ResponseD.json */,
+				0331CCD116D3F8CA0037911A /* ResponseE.json */,
+				D1A9640FB1434F9E98A40B64 /* Model */,
+				0389943316E1059C009275E8 /* Images */,
+				0331CC0816D2BC330037911A /* Supporting Files */,
+			);
+			path = "KVC Validation Pattern";
+			sourceTree = "<group>";
+		};
+		0331CC0816D2BC330037911A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0331CC0916D2BC330037911A /* KVC Validation Pattern-Info.plist */,
+				0331CC0A16D2BC330037911A /* InfoPlist.strings */,
+				0331CC0D16D2BC330037911A /* main.m */,
+				0331CC0F16D2BC330037911A /* KVC Validation Pattern-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0389943316E1059C009275E8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0389943816E1082D009275E8 /* Icon.png */,
+				0389943916E1082D009275E8 /* Icon@2x.png */,
+				0331CC1316D2BC340037911A /* Default.png */,
+				0331CC1516D2BC340037911A /* Default@2x.png */,
+				0331CC1716D2BC340037911A /* Default-568h@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D1A9640FB1434F9E98A40B64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1A96AC843999D5242A3C415 /* CTCBaseModel.h */,
+				D1A96FDA94E719E970ACD8D1 /* CTCBaseModel.m */,
+				D1A9697EA73C7580ADBD935A /* NSString+Utilities.h */,
+				D1A96C133C16E9532FEA9D77 /* NSString+Utilities.m */,
+				D1A9649CC08AFC85AF889CE2 /* Validation */,
+				D1A9634AAEA04A7DAC761FB9 /* CTCStation.h */,
+				D1A96109D2CD25E51B9DC18F /* CTCStation.m */,
+				D1A96A4A42FF9FB0178DA2BD /* CTCAddress.h */,
+				D1A96DAB6710395F2577CAA3 /* CTCAddress.m */,
+				D1A96A254F4AF318022696FB /* CTCHistoricalPrice.h */,
+				D1A963FA34856D738D23FCE5 /* CTCHistoricalPrice.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1A9649CC08AFC85AF889CE2 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				D1A9631937B4815842753788 /* ValidationFunctions.h */,
+				D1A960BB8118621FAC9EC597 /* CTCBaseModelValidator.h */,
+				D1A96F977C69F2AEB680CF33 /* CTCBaseModelValidator.m */,
+				D1A96B6E1AD55C1C9EC59F97 /* CTCArrayTypeValidator.h */,
+				D1A965D6EE2DC8E368276665 /* CTCArrayTypeValidator.m */,
+				D1A9682FCF8E44DE2645C622 /* CTCBaseValidator.h */,
+				D1A96B0273E016C33D792DD3 /* CTCBaseValidator.m */,
+				D1A961ED56103D603228633F /* CTCBooleanTypeValidator.h */,
+				D1A96AC4326DB106A6B7A748 /* CTCBooleanTypeValidator.m */,
+				D1A96919538C61431C404BCD /* CTCDateTypeValidator.h */,
+				D1A96B13B681A0BF8B33277F /* CTCDateTypeValidator.m */,
+				D1A96C839902F7B92E090955 /* CTCFloatTypeValidator.h */,
+				D1A960AB8D8D5F2608D1D05C /* CTCFloatTypeValidator.m */,
+				D1A964B154B9C3E18DF2E026 /* CTCNumberTypeValidator.h */,
+				D1A96431BB0178BFF883997B /* CTCNumberTypeValidator.m */,
+				D1A967B31A2F6F35B7A26450 /* CTCStringTypeValidator.h */,
+				D1A969301137DB19C2E681C4 /* CTCStringTypeValidator.m */,
+				D1A960242C2D383AC3DEAC1C /* CTCIntegerTypeValidator.h */,
+				D1A965882BA8DE414198C4BB /* CTCIntegerTypeValidator.m */,
+				D1A9603D974FAEAA5655C472 /* CTCDictionaryTypeValidator.h */,
+				D1A96F8FFAE93D1CA79F847E /* CTCDictionaryTypeValidator.m */,
+				D1A9608DF3D8068F64698BC3 /* CTCUnsignedIntegerTypeValidator.h */,
+				D1A9633A6D221155B7466BCC /* CTCUnsignedIntegerTypeValidator.m */,
+				D1A963B4A978AB7D6900FAEC /* CTCDoubleTypeValidator.h */,
+				D1A96EBE1A57032C1359BB0D /* CTCDoubleTypeValidator.m */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0331CBFD16D2BC330037911A /* KVC Validation Pattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0331CC2116D2BC340037911A /* Build configuration list for PBXNativeTarget "KVC Validation Pattern" */;
+			buildPhases = (
+				0331CBFA16D2BC330037911A /* Sources */,
+				0331CBFB16D2BC330037911A /* Frameworks */,
+				0331CBFC16D2BC330037911A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KVC Validation Pattern";
+			productName = "KVC Validation Pattern";
+			productReference = 0331CBFE16D2BC330037911A /* KVC Validation Pattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0331CBF616D2BC330037911A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CTC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "CapTech Consulting";
+			};
+			buildConfigurationList = 0331CBF916D2BC330037911A /* Build configuration list for PBXProject "KVC Validation Pattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0331CBF516D2BC330037911A;
+			productRefGroup = 0331CBFF16D2BC330037911A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0331CBFD16D2BC330037911A /* KVC Validation Pattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0331CBFC16D2BC330037911A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0331CC0C16D2BC330037911A /* InfoPlist.strings in Resources */,
+				0331CC1416D2BC340037911A /* Default.png in Resources */,
+				0331CC1616D2BC340037911A /* Default@2x.png in Resources */,
+				0331CC1816D2BC340037911A /* Default-568h@2x.png in Resources */,
+				0331CC1E16D2BC340037911A /* CTCViewController.xib in Resources */,
+				0331CCC816D3F6820037911A /* ResponseA.json in Resources */,
+				0331CCCA16D3F8600037911A /* ResponseB.json in Resources */,
+				0331CCCC16D3F87A0037911A /* ResponseC.json in Resources */,
+				0331CCD016D3F8BB0037911A /* ResponseD.json in Resources */,
+				0331CCD216D3F8CB0037911A /* ResponseE.json in Resources */,
+				0389943A16E1082D009275E8 /* Icon.png in Resources */,
+				0389943B16E1082D009275E8 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0331CBFA16D2BC330037911A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0331CC0E16D2BC330037911A /* main.m in Sources */,
+				0331CC1216D2BC330037911A /* CTCAppDelegate.m in Sources */,
+				0331CC1B16D2BC340037911A /* CTCViewController.m in Sources */,
+				D1A96840AAD0A01D4EC67395 /* CTCBaseModel.m in Sources */,
+				D1A9691945674836A09D2BC8 /* NSString+Utilities.m in Sources */,
+				D1A966991653B11B5E87F508 /* CTCBaseValidator.m in Sources */,
+				D1A96C04F57F99ECCA398A35 /* CTCStringTypeValidator.m in Sources */,
+				D1A96420C22B3EE0EC8B3302 /* CTCBooleanTypeValidator.m in Sources */,
+				D1A96393A51F39EB36C09B15 /* CTCNumberTypeValidator.m in Sources */,
+				D1A960CA1CD295B23407E722 /* CTCFloatTypeValidator.m in Sources */,
+				D1A9677609D8EFF77241C201 /* CTCArrayTypeValidator.m in Sources */,
+				D1A9612D29BDD99669FA0318 /* CTCDateTypeValidator.m in Sources */,
+				D1A961558ADE642EBB7A278D /* CTCStation.m in Sources */,
+				D1A966E4FCD1AEB29818902A /* CTCAddress.m in Sources */,
+				D1A966A3389F1134D28145A1 /* CTCHistoricalPrice.m in Sources */,
+				D1A96E7A320FB5300C08EC25 /* CTCIntegerTypeValidator.m in Sources */,
+				D1A9694E6EBF067748CF7520 /* CTCDictionaryTypeValidator.m in Sources */,
+				D1A96EA0F0A13B39EAD6002F /* CTCUnsignedIntegerTypeValidator.m in Sources */,
+				D1A965A8D4879E9760B90CC0 /* CTCDoubleTypeValidator.m in Sources */,
+				D1A9621C56912347ADCFE486 /* CTCBaseModelValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0331CC0A16D2BC330037911A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0331CC0B16D2BC330037911A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0331CC1C16D2BC340037911A /* CTCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0331CC1D16D2BC340037911A /* en */,
+			);
+			name = CTCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0331CC1F16D2BC340037911A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0331CC2016D2BC340037911A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0331CC2216D2BC340037911A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KVC Validation Pattern/KVC Validation Pattern-Prefix.pch";
+				INFOPLIST_FILE = "KVC Validation Pattern/KVC Validation Pattern-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0331CC2316D2BC340037911A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KVC Validation Pattern/KVC Validation Pattern-Prefix.pch";
+				INFOPLIST_FILE = "KVC Validation Pattern/KVC Validation Pattern-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0331CBF916D2BC330037911A /* Build configuration list for PBXProject "KVC Validation Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0331CC1F16D2BC340037911A /* Debug */,
+				0331CC2016D2BC340037911A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0331CC2116D2BC340037911A /* Build configuration list for PBXNativeTarget "KVC Validation Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0331CC2216D2BC340037911A /* Debug */,
+				0331CC2316D2BC340037911A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0331CBF616D2BC330037911A /* Project object */;
+}
